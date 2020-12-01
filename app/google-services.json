@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "228872071896",
+    "firebase_url": "https://groots-9e3ff.firebaseio.com",
+    "project_id": "groots-9e3ff",
+    "storage_bucket": "groots-9e3ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228872071896:android:933a6a961f2bea51da45ad",
+        "android_client_info": {
+          "package_name": "com.example.groots"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228872071896-9hhasdmrn0ru91fefj9jos27sq3vfhjt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCKLdaCsezfkkTMAblksSmM3_Ukgzc570"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228872071896-9hhasdmrn0ru91fefj9jos27sq3vfhjt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

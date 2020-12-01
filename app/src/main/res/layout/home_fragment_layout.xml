@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:id="@+id/informationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pairBluetoothView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btnAlreadyPaired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="searchForPairedDevices"
+            android:text="Redan pair:ade enheter" />
+
+        <Button
+            android:id="@+id/btnSearchForDevices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="searchForNewBTDevices"
+            android:text="Sök efter nya enheter" />
+
+        <ListView
+            android:id="@+id/BluetoothListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Groots"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/Textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Room:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/roomText"
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="#673AB7" />
+
+    <TextView
+        android:id="@+id/Textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Hazmat suit:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hazmatSuitText"
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="#2196F3" />
+
+    <TextView
+        android:id="@+id/Textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Radiation:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/radiationText"
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="#FFEB3B" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Time left" />
+
+</LinearLayout>

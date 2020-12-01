@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants">
+
+
+        <TextView
+            android:id="@+id/inText"
+            android:gravity="start"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In"
+            android:textColor="#FF0000"
+             />
+
+        <TextView
+            android:id="@+id/dateText"
+            android:gravity="center"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="#000000"
+        />
+
+        <TextView
+            android:id="@+id/outText"
+            android:gravity="end"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Out"
+            android:textColor="#00FF00"
+        />
+
+</RelativeLayout>
